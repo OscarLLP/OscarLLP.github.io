@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/stylo.css">
+</head>
+<body>
+  <h1>CALCULADORA</h1>
+  <div class="container">
+    <div class="container-input">
+        <input type="text" name="" id="pantalla1" class="container-input-d">
+        <input type="text" name="" id="pantalla2" class="container-input-d">
+        <span>=</span>
+        <input type="text" name="" id="resultado" class="container-input-d">
+    </div>
+    <div class="container-boton">
+        <div class="division">
+          <div>
+            <button type="button" onclick="algo(this)" name="button" class="btcolor" value="1">1</button>
+          </div>
+          <div>
+            <button type="button" onclick="algo(this)" name="button" class="btcolor" value="4">4</button>
+          </div>
+          <div>
+            <button type="button" onclick="algo(this)" name="button" class="btcolor" value="7">7</button>
+          </div>
+        </div>
+      <div class="division">
+        <div>
+          <button type="button" onclick="algo(this)" name="button" class="btcolor" value="2">2</button>
+        </div>
+        <div>
+          <button type="button" onclick="algo(this)" name="button" class="btcolor" value="5">5</button>
+        </div>
+        <div>
+          <button type="button" onclick="algo(this)" name="button" class="btcolor" value="8">8</button>
+        </div>
+        <div>
+          <button type="button" onclick="algo(this)" name="button" class="btigual" value="0">0</button>
+        </div>
+      </div>
+        <div class="division">
+        <div>
+          <button type="button" onclick="algo(this)" name="button" class="btcolor" value="3">3</button>
+        </div>
+        <div>
+          <button type="button" onclick="algo(this)" name="button" class="btcolor" value="6">6</button>
+        </div>
+        <div>
+          <button type="button" onclick="algo(this)" name="button" class="btcolor" value="9">9</button>
+        </div>
+      </div>
+      <div class="division">
+        <div>
+          <button type="button" name="button" class="btcolor" value="+" onclick="sumar()">+</button>
+        </div>
+        <div>
+          <button type="button" name="button" class="btcolor" value="-" onclick="restar()">-</button>
+        </div>
+        <div>
+          <button type="button" name="button" class="btcolor" value="/" onclick="division()">/</button>
+        </div>
+        <div>
+          <button type="button" name="button" class="btcero" value="*" onclick>*</button>
+        </div>
+        <div>
+          <button type="button" name="button" class="btmenos" value="=">=</button>
+        </div>
+      </div>
+      </div>
+  </div>
+<script src="js/js000.js" charset="utf-8"></script>
+</body>
+</html>
